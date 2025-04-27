@@ -16,9 +16,9 @@ public class EmployeeServiceApplication {
         return "hi";
     }
 
-    @GetMapping("/employees/{name}")
-    public String getName(@PathVariable String name){
-        return "Name is: " + name;
+    @GetMapping("/employees/{firstName}")
+    public String getFirstName(@PathVariable String firstName){
+        return "Name is: " + firstName;
     }
 
 
