@@ -29,7 +29,12 @@ public class EmployeeServiceApplication {
                 new Employee("2150", "James", "Vesto", "1985-11-23",
                     "8 Mile End Road, Carnegie, VIC 3163", "Freedom Office, Level 11, Desk 25",
                     "03 9476-8356", "Programmer", 87000,
-                    "2963492")
+                    "2963492"),
+
+                new Employee("2150", "Gary", "Chau", "2005-07-03",
+                        "8 Mile End Road, Carnegie, VIC 3163", "Freedom Office, Level 11, Desk 25",
+                        "03 9476-8356", "Programmer", 87000,
+                        "2963492")
         };
         List <Employee> matchFoundArray= new ArrayList<>();
 
