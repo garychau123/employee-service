@@ -10,9 +10,9 @@ import java.util.List;
 
 @RestController
 public class StaffLocationAPI {
-    @GetMapping("/staff-details/{firstname}")
-    public ResponseEntity<List<StaffDetails>> getStaffDetails(@PathVariable String firstname) {
-        // Placeholder return to fix the method
+    @GetMapping("/staff-details/{firstName}")
+    public ResponseEntity<List<StaffDetails>> getStaffDetails(@PathVariable String firstName) {
+        String url = "http://localhost:8080/staff-details/" + firstName;
         return ResponseEntity.ok(new ArrayList<>());
     }
 }
